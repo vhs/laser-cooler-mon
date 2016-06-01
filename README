@@ -1,0 +1,11 @@
+laser-cooler-mon
+----------------
+
+A device to monitor the water cooling loop as it flows to the laser
+tube and as it returns to the reservoir.
+
+This runs on a ESP8266-03 module. It communicates with two DS18B20
+digital temperature sensors, and sends the data to our MQTT broker.
+
+Programming this device is done using the 6-pin FTDI header on the
+device.
